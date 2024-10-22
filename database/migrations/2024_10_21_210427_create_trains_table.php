@@ -18,7 +18,7 @@ return new class extends Migration
             // Stazione di partenza
             $table->string('dep_station',64);
             // Stazione di arrivo
-            $table->string('darr_station',64);
+            $table->string('arr_station',64);
             // Orario di partenza
             $table->time('dep_time');
             // Orario di arrivo
