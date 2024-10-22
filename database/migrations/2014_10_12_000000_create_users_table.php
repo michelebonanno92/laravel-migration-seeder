@@ -21,7 +21,7 @@ return new class extends Migration
             $table->timestamps();
         });
     }
-
+    // php make:migration add_code_to_trains_table
     /**
      * Reverse the migrations.
      */

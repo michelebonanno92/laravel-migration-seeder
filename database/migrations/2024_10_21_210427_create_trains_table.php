@@ -25,6 +25,7 @@ return new class extends Migration
             $table->time('arr_time');
             // Codice Treno
             // -
+            // php artisan make:migration add_code_to_trains_table (per aggiugere una nuova colonna)
             // Numero Carrozze
             $table->tinyInteger('carriages_number')->nullable()->unsigned();
             // In orario
